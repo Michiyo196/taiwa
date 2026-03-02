@@ -1,0 +1,416 @@
+@charset "UTF-8";
+
+@import "_setting.scss";
+/************************************
+
+会社概要
+
+************************************/
+#company{
+
+/************************************
+
+#mainimage
+
+************************************/
+#mainimage{
+position: relative;
+img{
+width:100%;
+height:auto;
+}
+.container{
+position: absolute;
+top: 30%;
+left:0;
+right:0;
+margin:auto;
+width:90%;
+max-width: $max-width-l;
+height:30px;
+@include media-tab { 
+top: 20%;
+}
+}
+
+h2{
+color:#fff;
+font-weight: 300;
+font-size: 30px;
+letter-spacing: 0.2em;
+text-align: right;
+@include media-tab { 
+font-size: 20px;
+}
+@include media-sp { 
+font-size: 18px;
+text-align: center;
+}
+}
+}///#mainimage
+
+/************************************
+
+#about
+
+************************************/
+#about{
+h3{
+text-align: center;
+margin:50px 0 15px;
+font-size: 22px;
+}
+p{
+text-align: left;
+line-height: 2;
+margin:0 0 1em;
+a{
+text-decoration: underline;
+font-weight: bold;
+}
+}
+ul{
+margin:30px 0 0;
+display: flex;
+-webkit-flex-wrap: wrap; 
+flex-wrap:  wrap;
+li{
+width:48%;
+margin:1%;
+background-color: $back-color2;
+border-radius: 2em;
+padding:12px ;
+font-weight: 600;
+text-align: center;
+@include media-sp { 
+width:98%;
+}
+&:last-child{
+width:98%;
+}
+}
+}
+
+}///#about
+
+/************************************
+
+#concept
+
+************************************/
+#concept{
+.white{
+padding-top: 0;
+}
+.wrapper_s{
+@include media-sp { 
+max-width:100%;
+width:100%;
+}
+}
+.waku{
+background-image: url("../images/back_bluegrade.jpg");
+background-size: cover;
+padding:50px;
+position: relative;
+@include media-tab { 
+padding:20px 3% 30px;
+}
+p{
+text-align: center;
+line-height: 2;
+font-weight: bold;
+}
+.name{
+position: absolute;
+bottom:-10px;
+left:0;
+width:100%;
+text-align: center;
+color:#fff;
+font-family: "Times New Roman", Times, "serif";
+font-size: 50px;
+line-height: 1;
+@include media-tab { 
+font-size: 30px;
+bottom:-5px;
+}
+}
+}
+}//#concept
+/************************************
+
+#service
+
+************************************/
+#service{
+text-align: center;
+ol{
+display: inline-block;
+text-align: left;
+padding-left: 30px;
+text-align: left;
+li{
+list-style: none;
+font-weight: 600;
+margin:0 0 1em;
+position: relative;
+&:last-child{
+margin:0;
+}
+&::before{
+position: absolute;
+top: -3px;
+left: -30px;
+color:$key-color1;
+font-size: 26px;
+font-weight: normal;
+font-family:"Times New Roman", Times, "serif";
+//content: "1";
+}
+@for $i from 1 through 10 {
+&:nth-child(#{$i})::before {
+content: "#{$i}";
+}
+}
+}
+}
+}//#service
+/************************************
+
+#to_work
+
+************************************/
+#to_work{
+p{
+line-height: 1.8;
+a{
+text-decoration: underline;
+font-weight: bold;
+}
+}
+.bt{
+margin:20px 0;
+text-align: center;
+}
+ul{
+margin:20px 0;
+li{
+position: relative;
+padding-left: 20px;
+&::before{
+position: absolute;
+top: 2px;
+left: 0px;
+font-family: 'FontAwesome';
+content: "\f105";
+}
+a{
+text-decoration: underline;
+}
+}
+}
+.banner{
+margin:30px 0 0;
+text-align: center;
+}
+}///#to_work
+/************************************
+
+#sdgs
+
+************************************/
+#sdgs{
+p{
+line-height: 1.8;
+a{
+text-decoration: underline;
+font-weight: bold;
+}
+}
+.bt{
+margin:20px 0;
+text-align: center;
+}
+
+
+}///#sdgs
+/************************************
+
+#gaiyo
+
+************************************/
+#gaiyo{
+.white{
+padding-top: 0;
+}
+.map{
+margin:10px 0 0;
+iframe{
+width:100%;
+height:300px;
+}
+}
+}//#gaiyo
+/************************************
+
+#history
+
+************************************/
+#history{
+text-align: center;
+.waku{
+display: inline-block;
+}
+dl{
+display: flex;
+-webkit-flex-wrap: wrap; 
+flex-wrap:  wrap;
+text-align: left;
+}
+dt{
+color:#9b9b9b;
+font-family: "Times New Roman", Times, "serif";
+font-size: 30px;
+width:100px;
+padding:10px 0;
+position: relative;
+@include media-tab { 
+width:70px;
+font-size: 26px;
+}
+&::before{
+position: absolute;
+top: 22px;
+right: -6px;
+width:12px;
+height:12px;
+background-color: #fff;
+border-radius: 50%;
+content: "";
+@include media-tab { 
+top: 15px;
+}
+}
+}
+dd{
+width:calc(100% - 100px);
+border-left: 1px solid #fff;
+padding:10px 0 10px 50px;
+line-height: 1.8;
+@include media-tab { 
+width:calc(100% - 70px);
+padding:10px 0 10px 25px;
+}
+a{
+text-decoration: underline;
+}
+.image{
+margin:10px 0 0;
+img{
+width:auto;
+margin:0 10px 0 0;
+	@include media-sp { 
+	max-width:40%;
+	}
+}
+}
+}
+}//#history
+
+}//////////#company
+
+/************************************
+
+働き方改善への取り組み">
+
+************************************/
+#work{
+#mainimage{
+position: relative;
+img{
+width:100%;
+height:auto;
+}
+}
+/************************************
+
+.work_base
+
+************************************/
+.work_base{
+.wrapper{
+max-width: 1000px;
+}
+p{
+line-height: 2;
+a{
+text-decoration: underline;
+}
+}
+.image{
+margin:50px 0 0;
+display: flex;
+-webkit-flex-wrap: wrap; 
+flex-wrap:  wrap;
+@include media-tab { 
+margin:0 0 30px;
+}
+.image2{
+margin:0 2%;
+width:46%;
+img{
+width:100%;
+height:auto;
+}
+}
+}
+.bt{
+margin:20px 0;
+text-align: center;
+}
+&#ikuboss{
+.image{
+margin:50px 0 ;
+@include media-tab { 
+margin:30px 0 ;
+}
+}
+}
+}
+/************************************
+
+#facebook
+
+************************************/
+#facebook{
+
+p{
+text-align: center;
+@include media-tab { 
+text-align: left;
+}
+}
+.fb{
+margin:20px auto 0;
+max-width: 500px;
+
+}
+}
+}/////////#work
+
+/************************************
+
+#plan
+
+************************************/
+#plan{
+#plan_naiyo{
+.white{
+padding: 0;
+}
+.has-text-align-right{
+text-align: right;
+}
+}
+}///////#plan

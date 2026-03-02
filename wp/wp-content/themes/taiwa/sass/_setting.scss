@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+$gothic: /*'Noto Sans JP',*/"游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, sans-serif;
+$mincho: /*"Noto Serif JP",*/ "游明朝", "YuMincho","Hiragino Mincho ProN",  "HGS明朝E", serif;
+
+//setting
+$main-color: #333333;
+$key-color1: #0ab1bc;//blue
+//$key-color2: #a3cf76;
+$back-color1: #f2f2f2;//gray
+$back-color2: #e8f8f9;//pale blue
+
+//オレンジグラデーション 呼び出すときは　@include gra_orange;
+@mixin gra_orange {
+background-image:linear-gradient(to left,  #fc271e 0%,#ff6623 100%);
+}
+
+//青グラデーション濃いめ 呼び出すときは　@include gra_blue1;
+@mixin gra_blue1 {
+background-image:linear-gradient(to left, #53e0ed 0%,#0ab1bc 100%);
+}
+
+//青グラデーション薄め 呼び出すときは　@include gra_blue2;
+@mixin gra_blue2 {
+background-image:linear-gradient(to left, #91dce1 0%,#c2f4f9 100%);
+}
+
+
+//$font-family-eng: "Cinzel", serif;
+
+//max-width
+$max-width-l:1100px;
+$max-width-m:900px;
+$max-width-s:720px;
+
+// media query
+$tab: 1024px; // タブレット
+$sp: 600px; // スマホ
+
+@mixin media-tab {
+  @media only screen and (max-width: ($tab)) {
+    @content;
+  }
+}
+// 呼び出すときは　@include media-tab { }
+@mixin media-sp {
+  @media only screen and (max-width: ($sp)) {
+    @content;
+  }
+}
+// 呼び出すときは　@include media-sp { }
+
+//clearfix 呼び出すときは　@include clearfix;
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}

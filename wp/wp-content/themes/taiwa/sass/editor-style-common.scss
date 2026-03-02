@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*! このcssはsass（sass/同名の.scssファイル）からコンパイルされています。修正時はこのcssを直接いじらないようにお願いします  */
+
+//@import font記述なし
+
+//エディタ画面の幅と文字サイズを変更する
+
+.wp-block {/*文字が書ける幅を広げる*/
+    max-width: 1100px;
+}
+///エディタ画面のHTMLコード入力欄の高さを広げる
+.block-library-html__edit .block-editor-plain-text {
+font-family: Menlo,Consolas,monaco,monospace;
+color: #1e1e1e;
+padding: .8em 1em;
+border: 1px solid #ddd;
+border-radius: 4px;
+max-height: 500px;//変更
+font-size: 16px;
+}
+.editor-styles-wrapper p {
+font-size: inherit;
+line-height: inherit;
+margin-top: 0 !important;
+margin-bottom: 0 !important;
+}
+.wp-block-freeform.block-library-rich-text__tinymce a{
+color:#000;
+}
+@import "_import_scss";
+
+
+

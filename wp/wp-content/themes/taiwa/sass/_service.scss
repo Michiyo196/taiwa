@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import "_setting.scss";
+/************************************
+
+製品紹介
+
+************************************/
+#service{
+
+/************************************
+
+#service_list
+
+************************************/
+#service_list{
+.white{
+padding-top: 0;
+}
+article{
+margin:0 0 70px;
+&:last-child{
+margin:0;
+}
+}
+h3{
+font-size: 28px;
+text-align: center;
+margin:50px 0 30px;
+@include media-tab { 
+font-size: 21px;
+text-align: left;
+}
+}
+p{
+margin:0 auto 30px;
+max-width: $max-width-s;
+line-height: 2;
+}
+.bt{
+text-align: center;
+a{
+font-size: 18px;
+padding:20px 120px;
+@include media-tab { 
+font-size: 16px;
+padding:15px 70px;
+}
+}
+}
+}
+}/////////#service

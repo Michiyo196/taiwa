@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/*! このcssはsass（sass/同名の.scssファイル）からコンパイルされています。修正時はこのcssを直接いじらないようにお願いします  */
+
+//@import font記述なし
+
+//エディタ画面の幅と文字サイズを変更する
+
+.wp-block {/*文字が書ける幅を広げる*/
+    max-width: 720px;
+}
+///エディタ画面のHTMLコード入力欄の高さを広げる
+.block-library-html__edit .block-editor-plain-text {
+font-family: Menlo,Consolas,monaco,monospace;
+color: #1e1e1e;
+padding: .8em 1em;
+border: 1px solid #ddd;
+border-radius: 4px;
+max-height: 500px;//変更
+font-size: 16px;
+//text-align: left;
+}
+.editor-styles-wrapper p {
+font-size: inherit;
+line-height: inherit;
+margin-top: 0 !important;
+margin-bottom: 0 !important;
+}
+.wp-block-freeform.block-library-rich-text__tinymce a{
+color:#000;
+}
+@import "_setting.scss";
+@import "_common2.scss";
+
+.alignright{
+	float:right;
+	margin:0 0 20px 20px;
+}
+.alignleft{
+	float:left;
+	margin:0 20px 20px 0;
+}
+.aligncenter {
+	margin:0 auto 20px auto;
+	display:block;
+}
+h2{
+font-size: 20px;
+line-height: 1.5;
+margin:0 0 1.5em;
+background-color:#f2f2f2;
+padding:20px;
+}
+h3{
+font-size: 20px;
+line-height: 1.5;
+margin:0 0 1em;
+border-bottom:2px solid #0ab1bc;
+padding-bottom: 5px;
+}
+h4{
+font-size: 20px;
+line-height: 1.5;
+margin:0 0 1em;
+}
+p{
+font-size: 16px;
+line-height: 2;
+margin:0 0 1em;
+}
+img{
+margin:0 0 1em;
+}
+ul{
+font-size: 16px;
+line-height: 1.7;
+margin:0 0 1em;
+}
+.editor-styles-wrapper ul li{
+position: relative;
+padding:0 0 10px 20px;
+list-style: disc !important;
+}
+ul li::before{
+position: absolute;
+top: 0;
+left: 0px;
+content: "-";
+}
+ol{
+font-size: 16px;
+line-height: 1.7;
+margin:0 0 1em 20px;
+
+}
+ol li{
+position: relative;
+padding:0 0 10px 0;
+}
+ul{
+li{
+
+}
+}
+blockquote{
+border:1px dotted #ccc;
+padding:4%;
+margin:0 0 1em;
+line-height: 1.8;
+}
+a{
+text-decoration: underline;
+}

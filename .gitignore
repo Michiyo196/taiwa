@@ -1,0 +1,7 @@
+# プル除外
+_mb_node_modules/
+node_modules/
+images_moto/
+taiwa/
+# テーマ taiwa はプル対象に含める
+!wp/wp-content/themes/taiwa/

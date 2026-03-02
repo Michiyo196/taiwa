@@ -1,0 +1,91 @@
+# BEGIN SAKURA Internet Inc.
+<IfModule mod_deflate.c>
+    SetOutputFilter DEFLATE
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/x-javascript application/javascript application/ecmascript
+</IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive On
+    <FilesMatch "\.(css|js)$">
+        ExpiresDefault "access plus 1 week"
+    </FilesMatch>
+    <FilesMatch "\.(gif|jpe?g|png)$">
+        ExpiresDefault "access plus 1 month"
+    </FilesMatch>
+</IfModule>
+# END SAKURA Internet Inc.
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteEngine on
+RewriteRule ^products.html$ /service/ [R=301,L]
+RewriteRule ^jissun.html$ /jissun/ [R=301,L]
+RewriteRule ^std.html$ /jissun/func/ [R=301,L]
+RewriteRule ^3d.html$ /jissun3d/ [R=301,L]
+RewriteRule ^replace.html$ /jissun/func/ [R=301,L]
+RewriteRule ^diff.html$ /jissun/func/ [R=301,L]
+RewriteRule ^spec.html$ /jissun/spec/ [R=301,L]
+RewriteRule ^require.html$ /jissun/spec/ [R=301,L]
+RewriteRule ^options.html$ /jissun/option/ [R=301,L]
+RewriteRule ^hrs.html$ /jissun/option/ [R=301,L]
+RewriteRule ^tenkai.html$ /jissun/option/ [R=301,L]
+RewriteRule ^xsteel.html$ /jissun/option/ [R=301,L]
+RewriteRule ^hiproof.html$ /jissun/option/ [R=301,L]
+RewriteRule ^zaitori.html$ /jissun/option/ [R=301,L]
+RewriteRule ^integrate.html$ /jissun/option/ [R=301,L]
+RewriteRule ^plate.html$ /jissun/option/ [R=301,L]
+RewriteRule ^angle.html$ /jissun/option/ [R=301,L]
+RewriteRule ^nesting.html$ /jissun/option/ [R=301,L]
+RewriteRule ^cam.html$ /jissun/option/ [R=301,L]
+RewriteRule ^bnc.html$ /jissun/option/ [R=301,L]
+RewriteRule ^bnctape.html$ /jissun/option/ [R=301,L]
+RewriteRule ^ttx.html$ /jissun/option/ [R=301,L]
+RewriteRule ^kaplink.html$ /jissun/option/ [R=301,L]
+RewriteRule ^ncserver.html$ /jissun/option/ [R=301,L]
+RewriteRule ^others.html$ /jissun/option/ [R=301,L]
+RewriteRule ^ver8.html$ /support_info/206/ [R=301,L]
+RewriteRule ^ver8summary.html$ /support_info/206/ [R=301,L]
+RewriteRule ^ver7.html$ /support_info/178/ [R=301,L]
+RewriteRule ^ver7std.html$ /support_info/178/ [R=301,L]
+RewriteRule ^ver7opt.html$ /support_info/178/ [R=301,L]
+RewriteRule ^ver7nc.html$ /support_info/178/ [R=301,L]
+RewriteRule ^ver6.html$ /support_info/170/ [R=301,L]
+RewriteRule ^ver6std.html$ /support_info/170/ [R=301,L]
+RewriteRule ^plus1file.html$ / [R=301,L]
+RewriteRule ^order/inquiry.aspx$ / [R=301,L]
+RewriteRule ^support.html$ /support/ [R=301,L]
+RewriteRule ^os.html$ /correspondence/165/ [R=301,L]
+RewriteRule ^dwg.html$ /correspondence/164/ [R=301,L]
+RewriteRule ^jwcad.html$ /correspondence/163/ [R=301,L]
+RewriteRule ^jww.html$ /correspondence/160/ [R=301,L]
+RewriteRule ^update8.html$ /cat_support_info/jissun_ver8/ver8_info/ [R=301,L]
+RewriteRule ^updatep.html$ / [R=301,L]
+RewriteRule ^update7.html$ /cat_support_info/jissun_ver7/ver7_info/ [R=301,L]
+RewriteRule ^usb.html$ /support_info/167/ [R=301,L]
+RewriteRule ^protect.html$ /support_info/166/ [R=301,L]
+RewriteRule ^company.html$ /company/ [R=301,L]
+RewriteRule ^link.html$ / [R=301,L]
+RewriteRule ^hatarakikata.html$ /company/plan/ [R=301,L]
+RewriteRule ^update9.html$ /cat_support_info/jissun_ver9/ver9_info/ [R=301,L]
+
+
+# BEGIN WordPress
+# "BEGIN WordPress" から "END WordPress" までのディレクティブ (行) は
+# 動的に生成され、WordPress フィルターによってのみ修正が可能です。
+# これらのマーカー間にあるディレクティブへのいかなる変更も上書きされてしまいます。
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+

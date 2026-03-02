@@ -1,0 +1,511 @@
+@charset "UTF-8";
+
+@import "_setting.scss";
+
+
+
+
+/************************************
+
+実寸法師3D
+
+************************************/
+#jissun3d{
+
+
+/************************************
+
+#mainimage
+
+************************************/
+#mainimage{
+background-image: url("../jissun3d/images/page_title_back.jpg");
+background-size: cover;
+position: relative;
+@include media-sp { 
+background-image: url("../jissun3d/images/page_title_back-sp.jpg");
+}
+.container{
+max-width: $max-width-l;
+width:90%;
+position: relative;
+margin:0 auto;
+height:400px;
+@include media-tab { 
+height:250px;
+}
+@include media-sp { 
+height:auto;
+padding:5% 3%;
+}
+}
+h1{
+position: absolute;
+margin:auto;
+top:35%;
+left:0;
+width:366px;
+z-index: 2;
+@include media-tab { 
+width:250px;
+}
+@include media-sp { 
+position: relative;
+left:auto;
+top:auto;
+bottom:auto;
+}
+}
+.pc_ill{
+position: absolute;
+right:0;
+bottom:-60px;
+width:60%;
+max-width: 660px;
+@include media-tab { 
+bottom:3%;
+right:-3%;
+width:55%;
+}
+@include media-sp { 
+position: relative;
+width:80%;
+right:auto;
+bottom:auto;
+margin:10px auto 0;
+}
+}
+}////#mainimage
+/************************************
+
+#lead
+
+************************************/
+#lead{
+.white{
+padding-top: 100px;
+@include media-tab { 
+padding-top: 50px;
+}
+}
+h2{
+font-size: 28px;
+line-height: 1.6;
+margin:0 0 30px;
+text-align: center;
+@include media-tab { 
+font-size: 24px;
+text-align: left;
+}
+}
+.nintei{
+display: flex;
+-webkit-flex-wrap: wrap; 
+flex-wrap:  wrap;
+align-items: center;
+margin:0 0 30px;
+.image{
+width:95px;
+}
+p{
+width:calc( 100% - 115px );
+margin:0 0 0 20px;
+@include media-tab { 
+font-size: 14px;
+}
+a{
+text-decoration: underline;
+}
+}
+}
+#menu3d{
+margin-top: -110px;
+padding-top: 110px;
+.banner{
+margin:30px auto 0;
+max-width: 700px;
+}
+}
+}///#lead
+/************************************
+
+#function
+
+************************************/
+#function{
+.wrapper{
+max-width: 1000px;
+}
+article{
+margin:0 0 50px;
+background-color: #fff;
+&:last-child{
+margin:0;
+}
+}
+h2{
+font-size: 26px;
+color:#fff;
+@include gra_blue1;
+padding:20px;
+text-align: center;
+@include media-tab { 
+font-size: 22px;
+padding:12px;
+}
+}
+.list{
+padding:5% 5% 2%;
+display: flex;
+-webkit-flex-wrap: wrap; 
+flex-wrap:  wrap;
+justify-content: space-between;
+@include media-sp { 
+padding:7%;
+}
+}
+.waku{
+width:44%;
+//margin:3%;
+margin:0 3% 35px;
+@include media-sp { 
+width:100%;
+margin:0 0 30px;
+&:last-child{
+margin:0;
+}
+}
+&.waku3{
+width:29.3%;
+margin:0 2% 35px;
+@include media-sp { 
+width:100%;
+margin:0 0 30px;
+&:last-child{
+margin:0;
+}
+}
+}
+}
+h3{
+font-size: 21px;
+padding-left: 15px;
+border-left:5px solid $key-color1;
+margin:0 0 15px;
+@include media-tab { 
+font-size: 18px;
+}
+}
+ul.check{
+text-align: left;
+margin:0 auto 0px;
+li{
+padding-left: 30px;
+position: relative;
+margin:0 0 7px;
+line-height: 1.8;
+@include media-tab { 
+font-size: 15px;
+}
+&::before{
+position: absolute;
+top: 3px;
+left: 0px;
+background-image: url("../images/mark_check_blue.svg");
+width:20px; height:18px;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+content: "";
+}
+}
+}
+.image{
+margin:20px 0 0;
+}
+.j_pagetop{
+text-align: right;
+margin:7px 0 0;
+background-color: $back-color1;
+a{
+color:$key-color1;
+font-size: 14px;
+}
+}
+}/////////#function
+
+}/////////#jissun3d
+
+
+//************************************
+
+// 積載計画
+
+//************************************/
+#sekisai{
+
+
+/************************************
+
+#mainimage
+
+************************************/
+#mainimage{
+background-image: url("../jissun3d/images/page_title_back.jpg");
+background-size: cover;
+position: relative;
+@include media-sp { 
+background-image: url("../jissun3d/images/page_title_back-sp.jpg");
+}
+.container{
+max-width: $max-width-l;
+width:90%;
+position: relative;
+margin:0 auto;
+height:260px;
+@include media-tab { 
+height:200px;
+}
+@include media-sp { 
+height:auto;
+padding:5% 3%;
+}
+}
+h1{
+position: absolute;
+margin:auto;
+top:30%;
+left:0;
+max-width:600px;
+width:50%;
+z-index: 2;
+@include media-tab { 
+max-width:360px;
+}
+@include media-sp { 
+position: relative;
+left:auto;
+top:auto;
+bottom:auto;
+width:100%;
+}
+}
+.pc_ill{
+position: absolute;
+right:0;
+bottom:-60px;
+width:35%;
+max-width: 460px;
+@include media-tab { 
+bottom:3%;
+right:-3%;
+width:55%;
+}
+@include media-sp { 
+position: relative;
+width:70%;
+right:auto;
+bottom:auto;
+margin:20px auto 0;
+}
+}
+}////#mainimage
+/************************************
+
+#lead
+
+************************************/
+#lead{
+
+.white{
+padding-top: 100px;
+@include media-tab { 
+padding-top: 50px;
+}
+}
+h2{
+font-size: 28px;
+line-height: 1.6;
+margin:0 0 1rem;
+text-align: center;
+@include media-tab { 
+font-size: 24px;
+text-align: left;
+}
+}
+h3{
+font-size: 22px;
+line-height: 1.6;
+margin:0 0 30px;
+text-align: center;
+@include media-tab { 
+font-size: 18px;
+text-align: left;
+}
+}
+.point{
+background-image: url("../sekisai/images/point_back.jpg");
+background-repeat: no-repeat;
+background-position: center bottom;
+background-size: contain;
+padding:0 0 18vw;
+@include media-sp { 
+background-image: url("../sekisai/images/point_back-so@2x.jpg");
+background-size: contain;
+}
+.wrapper{
+max-width: 860px;
+}
+ul{
+display: flex;
+-webkit-flex-wrap: wrap; 
+flex-wrap:  wrap;
+justify-content: space-between;
+@include media-sp { 
+justify-content: center;
+}
+}
+li{
+width:30%;
+@include media-sp { 
+width:46%;
+margin:2%;
+}
+}
+}//point
+.chui{
+margin:2rem 0 0;
+p{
+text-align: center;
+font-size: .85em;
+@include media-sp { 
+text-align: left;
+}
+}
+a{
+text-decoration: underline;
+}
+}
+}///#lead
+/************************************
+
+#function
+
+************************************/
+#function{
+.white{
+padding-top: 0;
+}
+.wrapper{
+max-width: 1000px;
+}
+
+h2{
+font-size: 26px;
+color:#fff;
+margin-bottom: 3rem;
+@include gra_blue1;
+padding:20px;
+text-align: center;
+@include media-tab { 
+font-size: 22px;
+padding:12px;
+}
+}
+.list{
+padding:0;
+display: flex;
+-webkit-flex-wrap: wrap; 
+flex-wrap:  wrap;
+justify-content: space-between;
+@include media-sp { 
+
+}
+}
+.waku{
+width:44%;
+//margin:3%;
+margin:0 3% 40px;
+@include media-sp { 
+width:100%;
+margin:0 0 30px;
+&:last-child{
+margin:0;
+}
+}
+&.waku2{
+width:100%;
+margin:0 3% 40px;
+@include media-sp { 
+width:100%;
+margin:0 0 30px;
+&:last-child{
+margin:0;
+}
+}
+.list{
+justify-content: space-between;
+align-items: center;
+.text{
+width:50%;
+@include media-sp { 
+width:100%;
+}
+}
+.image{
+width:45%;
+@include media-sp { 
+width:100%;
+}
+}
+}
+}//.waku2
+}
+h3{
+font-size: 21px;
+padding-left: 15px;
+border-left:5px solid $key-color1;
+margin:0 0 15px;
+@include media-tab { 
+font-size: 18px;
+}
+}
+ul.check{
+text-align: left;
+margin:0 auto 0px;
+li{
+padding-left: 30px;
+position: relative;
+margin:0 0 7px;
+line-height: 1.8;
+@include media-tab { 
+font-size: 15px;
+}
+&::before{
+position: absolute;
+top: 3px;
+left: 0px;
+background-image: url("../images/mark_check_blue.svg");
+width:20px; height:18px;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+content: "";
+}
+}
+}
+.image{
+margin:20px 0 0;
+}
+.j_pagetop{
+text-align: right;
+margin:7px 0 0;
+background-color: $back-color1;
+a{
+color:$key-color1;
+font-size: 14px;
+}
+}
+}/////////#function
+
+}/////////#jissun3d

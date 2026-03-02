@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1" />
+<!--[if lt IE 9]> 
+<script src="/js/html5shiv.min.js"></script> 
+<![endif]-->
+<link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/icon-192x192.png">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>株式会社タイワ</title>
+<!-- TemplateEndEditable -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="../wp/wp-content/themes/taiwa/css/common.css" rel="stylesheet" type="text/css">
+<link href="../wp/wp-content/themes/taiwa/css/slick.css" rel="stylesheet" type="text/css">
+<link href="../wp/wp-content/themes/taiwa/css/slick-theme.css" rel="stylesheet" type="text/css">
+
+<!-- ========== HEAD COMMON END ===========-->
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body class="drawer drawer--right">
+
+<!-- ========== TITLE START ===========-->
+
+<header>
+<div class="container">
+<h1><a href="/">株式会社タイワ</a></h1>
+<nav>
+<ul class="menu">
+<li class="menu_service"><a href="/service/">製品紹介</a></li>
+<li class="menu_case"><a href="/case/">導入事例</a></li>
+<li><a href="/support/">サポート</a></li>
+<li class="menu_company"><a href="/company/">会社概要</a></li>
+<li class="menu_recruit"><a href="/recruit/">採用情報</a></li>
+<li><a href="/news/">お知らせ</a></li>
+</ul>
+</nav>
+<div class="contact"><a href="/contact/">お問い合わせ</a></div>
+</div>
+</header>
+
+<nav id="submenu">
+<div class="sub_container">
+<div class="waku">
+<article class="jissun">
+<h3>2次元汎用CAD/CAMシステム</h3>
+<h2><a href="/jissun/">実寸法師</a></h2>
+<h4>抜群の操作性、豊富で便利な機能が満載。<br>
+描くことから、物作りまで、トータルで考えるソフト。</h4>
+<ul class="menu_sub">
+<li><a href="/jissun/func/">機能紹介</a></li>
+<li><a href="/jissun/spec/">仕様・動作環境</a></li>
+<li><a href="/jissun/option/">オプション製品紹介</a></li>
+<li><a href="/case/">導入事例</a></li>
+<li><a href="/jissun/faq/">よくある質問</a></li>
+<li><a href="/support/">サポート</a></li>
+</ul>
+</article>
+</div>
+<div class="waku">
+<article class="jissun3d">
+<h3>汎用3次元CADシステム</h3>
+<h2><a href="/jissun3d/">実寸法師3D</a></h2>
+<h4>実寸法師の操作性をそのままに、<br>
+３次元モデルを作成・編集。</h4>
+<ul class="menu_sub">
+<li><a href="/jissun3d/">実寸法師3D</a></li>
+<li><a href="/sekisai/">積載計画<small>（オプション）</small></a></li>
+</ul>
+</article>
+<!--
+<article class="plusone">
+<h3>CAD図面ファイル管理ツール</h3>
+<h2><a href="/plusone/">PlusOne図面管理</a></h2>
+<h4>図面設計者・管理者のために作られた、<br>
+手軽に使えて強力なオールインワンツール</h4>
+<ul class="menu_sub">
+<li><a href="/plusone/">PlusOne図面管理</a></li>
+</ul>
+</article>
+-->
+</div>
+</div>
+</nav>
+
+<nav id="submenu_c" class="submenu_cr">
+<div class="sub_container">
+<ul>
+<li><a href="/company/">会社概要</a></li>
+<li><a href="/company/work/">働き方改革への取り組み</a></li>
+<li><a href="/company/plan/">一般事業主行動計画について</a></li>
+</ul>
+</div>
+</nav>
+
+<nav id="submenu_r" class="submenu_cr">
+<div class="sub_container">
+<ul>
+<li><a href="/recruit/">採用情報</a></li>
+<li><a href="/recruit/interview/">先輩社員インタビュー</a></li>
+</ul>
+</div>
+</nav>
+<!-- ========== TITLE END ===========-->
+<!-- TemplateBeginEditable name="main" -->
+<main>
+<div class="raf"> <a href="../index2.html"><img src="../wp/wp-content/themes/taiwa/images/raf-top1@2x.jpg" alt=""></a> </div>
+</main>
+<!-- TemplateEndEditable -->
+<!--========= FOOTER START =========--> 
+
+<footer>
+<div class="wrapper">
+<div class="title">
+<h2><a href="/">株式会社タイワ</a></h2>
+<div class="tel"><a href="tel:0897-32-9200">TEL 0897-32-9200</a></div>
+<div class="contact"><a href="/contact/">WEBお問い合わせ</a></div>
+</div>
+<nav>
+<dl>
+<dt><a href="/service/">製品紹介</a></dt>
+<dd>
+<h3><a href="/jissun/">実寸法師</a></h3>
+<ul class="sub">
+<li><a href="/jissun/func/">機能紹介</a></li>
+<li><a href="/jissun/spec/">仕様・動作環境</a></li>
+<li><a href="/jissun/option/">オプション製品紹介</a></li>
+<li><a href="/case/">導入事例</a></li>
+<li><a href="/jissun/faq/">よくある質問</a></li>
+<li><a href="/support/">サポート</a></li>
+</ul>
+<h3><a href="/jissun3d/">実寸法師3D</a></h3>
+<ul class="sub">
+<li><a href="/jissun3d/">機能紹介</a></li>
+<li><a href="/sekisai/">積載計画<small>（オプション）</small></a></li>
+</ul>
+<h3><a href="/support/">サポート</a></h3>
+</dd>
+</dl>
+<dl>
+<dt><a href="/recruit/">採用情報</a></dt>
+<dd>
+<ul class="menu">
+<li><a href="/recruit/">採用情報</a></li>
+<li><a href="/recruit/interview/">先輩社員インタビュー</a></li>
+</ul>
+</dd>
+<dt><a href="/company/">会社情報</a></dt>
+<dd>
+<ul class="menu">
+<li><a href="/company/">会社情報</a></li>
+<li><a href="/company/work/">働き方改善への取り組み</a></li>
+<li><a href="/company/plan/">一般事業主行動計画について</a></li>
+<li><a href="/news/">お知らせ</a></li>
+<li><a href="/contact/">お問い合わせ</a></li>
+</ul>
+</dd>
+<dt><a href="https://www.facebook.com/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%BF%E3%82%A4%E3%83%AF-316669365038208/" target="_blank">SNS</a></dt>
+<dd>
+<ul class="menu">
+<li><a href="https://www.facebook.com/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%BF%E3%82%A4%E3%83%AF-316669365038208/" target="_blank"><i class="fa fa-facebook-square"></i>facebook</a></li>
+</ul>
+</dd>
+</dl>
+</nav>
+
+<div class="list">
+<article>
+<h3>本社</h3>
+<p>〒792-0805<br>
+愛媛県新居浜市八雲町４番７号<br>
+<a href="tel:0897-32-9200"></a>TEL:0897-32-9200　FAX:0897-32-6699</p>
+</article>
+<article>
+<h3>東京支社</h3>
+<p>〒141-0022<br>
+東京都品川区東五反田1-10-7<br>
+ AIOS五反田ビル711号室<br>
+<a href="tel:03-3728-1015">TEL:03-3728-1015</a>　FAX:03-6862-7461</p>
+</article>
+<article>
+<h3>松山支社</h3>
+<p>〒790-0852<br>
+愛媛県松山市石手4-2-56 206号室<br>
+<a href="tel:089-934-9200">TEL:089-934-9200</a>　FAX:089-946-4858</p>
+</article>
+</div>
+
+<div class="copyright">Copyright © 2010-2020 Taiwa Corporation, <br class="br_ssp">All Rights Reserved.</div>
+</div>
+</footer>
+
+<!-- pageup -->
+<div id="pageup"> <a href="#" onclick="backToTop(); return false"><i class="fa fa-angle-up"></i><br>
+PageUP</a> </div>
+<!-- sp-menu -->
+<div id="sp-menu">
+<button type="button" class="sp drawer-toggle drawer-hamburger"> <span class="sr-only">toggle navigation</span> <span class="drawer-hamburger-icon"></span>
+<div class="text"></div>
+</button>
+<nav class="drawer-nav" role="navigation">
+<div class="drawer-menu">
+<h2><a href="/">株式会社タイワ</a></h2>
+<nav>
+<ul class="menu">
+<li class="menu_service">
+<h3><a href="/service/">製品紹介</a></h3>
+<h4><a href="/jissun/">実寸法師</a></h4>
+<ul class="sub">
+<li><a href="/jissun/func/">機能紹介</a></li>
+<li><a href="/jissun/spec/">仕様・動作環境</a></li>
+<li><a href="/jissun/option/">オプション製品紹介</a></li>
+<li><a href="/case/">導入事例</a></li>
+<li><a href="/jissun/faq/">よくある質問</a></li>
+<li><a href="/support/">サポート</a></li>
+</ul>
+<h4><a href="/jissun3d/">実寸法師3D</a></h4>
+<ul class="sub">
+<li><a href="/jissun3d/">機能紹介</a></li>
+<li><a href="/sekisai/">積載計画<small>（オプション）</small></a></li>
+</ul>
+<h4><a href="/support/">サポート</a></h4>
+</li>
+<li>
+<h3><a href="/company/">会社概要</a></h3>
+<ul class="menu">
+<li><a href="/company/">会社情報</a></li>
+<li><a href="/company/work/">働き方改善への取り組み</a></li>
+<li><a href="/company/plan/">一般事業主行動計画について</a></li>
+</ul>
+</li>
+<li>
+<h3><a href="/recruit/">採用情報</a></h3>
+<ul class="menu">
+<li><a href="/recruit/">採用情報</a></li>
+<li><a href="/recruit/interview/">先輩社員インタビュー</a></li>
+</ul>
+</li>
+<li><h3><a href="/news/">お知らせ</a></h3></li>
+</ul>
+</nav>
+<div class="contact"><a href="/contact/">お問い合わせ</a></div>
+<div class="tel"><a href="tel:0897-32-9200">TEL 0897-32-9200</a></div>
+<div class="sns"><a href="https://www.facebook.com/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%BF%E3%82%A4%E3%83%AF-316669365038208/" target="_blank"><i class="fa fa-facebook-square"></i>facebook</a></div>
+</div>
+</nav>
+</div>
+
+<!-- script --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> 
+<script src="../wp/wp-content/themes/taiwa/js/jquery.inview.js"></script> 
+<script type="text/javascript" src="../wp/wp-content/themes/taiwa/js/script.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script> 
+<script src="../wp/wp-content/themes/taiwa/js/drawer.min.js"></script> <!--========= FOOTER END =========-->
+
+<script>
+  $(document).ready(function () {
+    $('.drawer').drawer();
+  });
+  //ページ内リンク対応
+  $('#sp-menu a').on('click', function () { if (window.innerWidth <= 960) { $('.drawer-toggle').click(); } });
+</script>
+<!-- TemplateBeginEditable name="foot_script" -->
+<!-- TemplateEndEditable -->
+
+</body>
+</html>

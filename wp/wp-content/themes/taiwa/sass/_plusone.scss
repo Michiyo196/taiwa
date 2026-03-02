@@ -1,0 +1,428 @@
+@charset "UTF-8";
+
+@import "_setting.scss";
+
+
+
+
+/************************************
+
+PlusOne図面管理
+
+************************************/
+#plusone{
+
+
+/************************************
+
+#mainimage
+
+************************************/
+#mainimage{
+background-image: url("../plusone/images/page_title_back.jpg");
+background-size: cover;
+position: relative;
+@include media-sp { 
+background-image: url("../plusone/images/page_title_back-sp.jpg");
+}
+.container{
+max-width: $max-width-l;
+width:90%;
+position: relative;
+margin:0 auto;
+height:400px;
+@include media-tab { 
+height:200px;
+}
+@include media-sp { 
+height:auto;
+padding:5% 3%;
+}
+}
+h1{
+position: absolute;
+margin:auto;
+top:35%;
+left:0;
+width:228px;
+z-index: 2;
+@include media-tab { 
+width:180px;
+top:25%;
+}
+@include media-sp { 
+position: relative;
+left:auto;
+top:auto;
+bottom:auto;
+}
+}
+.pc_ill{
+//position: absolute;
+//right:0;
+//top:0;
+//bottom:0;
+display: flex;
+-webkit-flex-wrap: wrap; 
+flex-wrap:  wrap;
+justify-content: flex-end;
+//background-color: #ccc;
+height:400px;
+@include media-tab { 
+height:200px;
+}
+@include media-sp { 
+height:auto;
+justify-content: center;
+}
+.pc_ill2{
+width:60%;
+max-width: 660px;
+height:auto;
+display: flex;
+-webkit-flex-wrap: wrap; 
+flex-wrap:  wrap;
+align-items: center;
+@include media-tab { 
+width:60%;
+max-width: 350px;
+}
+@include media-sp {
+width:100%;
+}
+}
+
+}
+}////#mainimage
+/************************************
+
+#lead
+
+************************************/
+#lead{
+.white{
+//padding-top: 100px;
+@include media-tab { 
+//padding-top: 50px;
+}
+}
+h2{
+font-size: 28px;
+line-height: 1.6;
+margin:0 0 30px;
+text-align: center;
+@include media-tab { 
+font-size: 24px;
+text-align: left;
+}
+}
+.onayami{
+margin:40px auto 10px;
+.waku{
+background-color: $back-color1;
+padding:4% ;
+@include media-tab { 
+padding:25px 5% 5%;
+}
+}
+h3{
+font-size: 21px;
+text-align: center;
+margin:0 0 20px;
+@include media-tab { 
+font-size: 19px;
+margin:0 0 10px;
+}
+}
+ul{
+margin:0 auto;
+max-width: 580px;
+li{
+background-color: #fff;
+margin:0 0 5px;
+border-radius: 2em;
+padding:7px 10%;
+line-height: 1.4;
+@include media-tab { 
+font-size: 15px;
+padding:7px 8%;
+}
+}
+}
+h4{
+margin:60px 0 0;
+position: relative;
+color:$key-color1;
+text-align: center;
+font-size: 21px;
+@include media-tab { 
+font-size: 19px;
+}
+&::before{
+position: absolute;
+top: -56px;
+left: 0px;
+right:0;
+margin:auto;
+background-image: url("../plusone/images/yaji_down.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+width:48px;
+height:54px;
+content: "";
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx){
+background-image: url("../plusone/images/yaji_down@2x.png");
+}
+}
+}
+}
+#menu3d{
+margin-top: -110px;
+padding-top: 110px;
+li{
+@include media-tab { 
+width:31.3%;
+}
+@include media-sp { 
+width:48%;
+&:last-child{
+width:98%;
+max-width:98%;
+}
+}
+}
+}
+}///#lead
+/************************************
+
+#function
+
+************************************/
+#function{
+.wrapper{
+max-width: 1000px;
+}
+article{
+margin:0 0 50px;
+background-color: #fff;
+&:last-child{
+margin:0;
+}
+}
+h2{
+font-size: 26px;
+color:#fff;
+@include gra_blue1;
+padding:20px;
+text-align: center;
+@include media-tab { 
+font-size: 22px;
+padding:12px;
+}
+}
+.list{
+padding:5% 5% 2%;
+display: flex;
+-webkit-flex-wrap: wrap; 
+flex-wrap:  wrap;
+justify-content: space-between;
+@include media-sp { 
+padding:7%;
+}
+}
+.waku{
+width:44%;
+//margin:3%;
+margin:0 3% 35px;
+@include media-sp { 
+width:100%;
+margin:0 0 30px;
+&:last-child{
+margin:0;
+}
+}
+&.waku1{
+width:94%;
+margin:0 3% 35px;
+display: flex;
+-webkit-flex-wrap: wrap; 
+flex-wrap:  wrap;
+@include media-sp { 
+width:100%;
+margin:0 0 30px;
+&:last-child{
+margin:0;
+}
+}
+.text{
+width:65%;
+@include media-sp { 
+width:100%;
+}
+}
+.image1{
+width:30%;
+margin:0 0 0 5%;
+@include media-sp { 
+width:80%;
+margin:10px auto 0;
+}
+}
+}
+}//.waku
+h3{
+font-size: 21px;
+padding-left: 15px;
+border-left:5px solid $key-color1;
+margin:0 0 15px;
+@include media-tab { 
+font-size: 18px;
+}
+}
+h4{
+font-size: 18px;
+margin:0 0 10px;
+@include media-tab { 
+font-size: 17px;
+}
+}
+ul.check{
+text-align: left;
+margin:0 auto 0px;
+li{
+padding-left: 30px;
+position: relative;
+margin:0 0 7px;
+line-height: 1.8;
+@include media-tab { 
+font-size: 15px;
+}
+&::before{
+position: absolute;
+top: 3px;
+left: 0px;
+background-image: url("../images/mark_check_blue.svg");
+width:20px; height:18px;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+content: "";
+}
+}
+}//ul.check
+p{
+a{
+text-decoration: underline;
+font-weight: bold;
+}
+}
+.image{
+margin:20px 0 0;
+}
+
+.spec{
+width:100%;
+@include media-tab { 
+overflow-x: scroll;
+}
+table{
+width:100%;
+border:1px solid #ccc;
+border-collapse: collapse;
+@include media-sp { 
+width:640px;
+}
+th,td{
+padding:12px;
+text-align: center;
+@include media-tab { 
+padding:7px;
+font-size: 14px;
+}
+}
+thead{
+th{
+background-color: #d6d6d6;
+border-bottom:1px solid #ccc;
+border-left:1px solid #ccc;
+}
+}
+tbody{
+th{
+background-color: $back-color1;
+border-bottom:1px solid #ccc;
+}
+td{
+border-bottom:1px solid #ccc;
+border-left:1px solid #ccc;
+}
+}
+}
+p{
+margin:10px 0 0;
+font-size: 12px;
+}
+}//spec
+.j_pagetop{
+text-align: right;
+margin:7px 0 0;
+background-color: $back-color1;
+a{
+color:$key-color1;
+font-size: 14px;
+}
+}//j_pagetop
+
+
+}/////////#function
+
+}/////////#plusone
+
+/************************************
+
+.plusone_catalogue
+
+************************************/
+.plusone_catalogue{
+margin:50px 0 0;
+@include media-tab { 
+margin:25px 0 0;
+}
+.bt{
+text-align: center;
+a{
+display: inline-block;
+margin:0 5px 5px;
+padding:12px 50px;
+position: relative;
+color:#fff !important;
+font-weight: bold;
+border-radius: 2em;
+@include gra_blue1;
+@include media-tab { 
+font-size: 15px;
+padding:10px 36px;
+}
+@include media-sp { 
+width:290px;
+margin:0 auto 5px;
+}
+&::before{
+position: absolute;
+top: 50%;
+-webkit-transform: translateY(-50%); 
+transform: translateY(-50%);
+right: 20px;
+width:15px;
+height:15px;
+background-image: url("../images/mark_yaji_r.svg");
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+content: "";
+}
+}
+
+}
+}
