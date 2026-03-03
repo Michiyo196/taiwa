@@ -53,27 +53,32 @@ Template Name: 実寸法師:導入実績
 
 
 <section class="case_nav">
-<div class="white">
-<div class="wrapper_m">
-<h3>導入実績一覧</h3>
-<ul>
-<li><a href="/case/case03/">
-<div class="image"><img src="/wp/wp-content/themes/taiwa/jissun/case/images/case3_0.jpg" alt="ヤマネ鉄工建設株式会社 様"></div>
-<h4>ヤマネ鉄工建設株式会社 様</h4>
-</a></li>
-<li><a href="/case/case02/">
-<div class="image"><img src="/wp/wp-content/themes/taiwa/jissun/case/images/case2_0@2x.jpg" alt="株式会社エスディーダブル 様"></div>
-<h4>株式会社エスディーダブル 様</h4>
-</a></li>
-<li><a href="/case/case01/">
-<div class="image"><img src="/wp/wp-content/themes/taiwa/jissun/case/images/case1_0@2x.jpg" alt="執行工業株式会社 様"></div>
-<h4>執行工業株式会社 様</h4>
-</a></li>
-</ul>
-<div class="bt"><a href="/case/">導入実績TOP</a></div>
-</div>
-</div>
-</section>
+          <div class="white">
+            <div class="wrapper_m">
+              <h3>導入実績一覧</h3>
+              <ul>
+
+                <li><a href="/case/case04/">
+                    <div class="image"><img src="/wp/wp-content/themes/taiwa/jissun/case/images/case4_1.jpg" alt="白石鉄工株式会社 様"></div>
+                    <h4>白石鉄工株式会社 様</h4>
+                  </a></li>
+                <li><a href="/case/case03/">
+                    <div class="image"><img src="/wp/wp-content/themes/taiwa/jissun/case/images/case3_0.jpg" alt="ヤマネ鉄工建設株式会社 様"></div>
+                    <h4>ヤマネ鉄工建設株式会社 様</h4>
+                  </a></li>
+                <li><a href="/case/case02/">
+                    <div class="image"><img src="/wp/wp-content/themes/taiwa/jissun/case/images/case2_0@2x.jpg" alt="株式会社エスディーダブル 様"></div>
+                    <h4>株式会社エスディーダブル 様</h4>
+                  </a></li>
+                <li><a href="/case/case01/">
+                    <div class="image"><img src="/wp/wp-content/themes/taiwa/jissun/case/images/case1_0@2x.jpg" alt="執行工業株式会社 様"></div>
+                    <h4>執行工業株式会社 様</h4>
+                  </a></li>
+              </ul>
+              <div class="bt"><a href="/case/">導入実績TOP</a></div>
+            </div>
+          </div>
+        </section>
 
 </div>
 </div>

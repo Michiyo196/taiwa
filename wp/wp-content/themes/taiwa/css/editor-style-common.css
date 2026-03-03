@@ -4000,6 +4000,7 @@ main#jissun.sec {
   }
 }
 .interview article p {
+  width: 100%;
   line-height: 1.8;
 }
 @media only screen and (max-width: 1024px) {
