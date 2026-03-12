@@ -57,7 +57,10 @@ Template Name: 実寸法師:導入実績
             <div class="wrapper_m">
               <h3>導入実績一覧</h3>
               <ul>
-
+              <li><a href="/case/case05/">
+                      <div class="image"><img src="/wp/wp-content/themes/taiwa/jissun/case/images/case5_1.jpg" alt="日本ファブテック株式会社  様"></div>
+                      <h4>日本ファブテック株式会社 様</h4>
+                    </a></li>
                 <li><a href="/case/case04/">
                     <div class="image"><img src="/wp/wp-content/themes/taiwa/jissun/case/images/case4_1.jpg" alt="白石鉄工株式会社 様"></div>
                     <h4>白石鉄工株式会社 様</h4>
